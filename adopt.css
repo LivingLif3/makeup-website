@@ -1,0 +1,332 @@
+@media only screen and (max-width: 1760px) {
+    .ways-contacts-text-wrapper-images {
+        width: 30%
+    }
+}
+
+@media only screen and (max-width: 1390px) {
+    .networks {
+        visibility: hidden;
+    }
+
+    .about {
+        padding: 10px;
+    }
+
+    .about-block {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .about-img {
+        width: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-text {
+        width: auto;
+
+        margin-top: 5%;
+    }
+
+    .ways-contacts-text-wrapper-images {
+        width: 30%
+    }
+
+    .ways-contacts {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 1268px) {
+    .ways-contacts {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .ways-contacts-img {
+        display: none;
+    }
+
+    .ways-contacts-block {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ways-contacts-text-wrapper-description {
+        font-size: 17px;
+    }
+
+    .ways-contacts-text-wrapper-information {
+        font-size: 11px;
+    }
+
+    .ways-contacts-text-wrapper-images {
+        width: 70%;
+    }
+
+    .first-row-inputs {
+        flex-direction: column;
+    }
+
+    .about-text-wrapper-abilities__first-input {
+        width: 100%;
+    }
+
+    .contacts-button {
+        width: 60%;
+        margin-left: 15%;
+        font-size: 12px;
+    }
+
+    .error-label {
+        font-size: 10px;
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .experiance-trees-block {
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .experiance-trees__tree {
+        margin-top: 20px;
+    }
+
+    .ways-contacts {
+        height: auto;
+        margin-top: 35%;
+    }
+
+    .ways-contacts-img {
+        display: none;
+    }
+
+    .contacts-button {
+        width: 60%;
+        margin-left: 15%;
+        font-size: 10px;
+    }
+
+    .ways-contacts-text {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 503px) {
+    .first-row {
+        flex-direction: column;
+    }
+
+    .about-text-wrapper-abilities__ability-description {
+        width: 100%;
+    }
+
+    .about-text-wrapper-abilities__ability-description__text {
+        max-width: 100%;
+    }
+
+    .about-text-wrapper-abilities__ability {
+        max-width: 100%;
+    }
+
+    .about-text-wrapper-abilities__ability {
+        margin-top: 20px;
+    }
+
+    .about-text-wrapper-abilities {
+        padding: 10px;
+    }
+
+    .ways-contacts {
+        height: auto;
+        margin-top: 45%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .ways-contacts {
+        height: auto;
+        margin-top: 55%;
+    }
+
+    .about-text-wrapper-abilities__first-input .text-field__label {
+        font-size: 14px;
+        width: 70px;
+        top: -50px;
+    }
+
+    .about-text-wrapper-abilities__first-input .text-field__label__email {
+        font-size: 13px;
+        width: 80px;
+        top: -55px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .ways-contacts {
+        height: auto;
+        margin-top: 65%;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .ways-contacts {
+        height: auto;
+        margin-top: 85%;
+    }
+
+    .about-text-wrapper-abilities__first-input .text-field__label {
+        font-size: 13px;
+        width: 65px;
+        top: -55px;
+    }
+
+    .about-text-wrapper-abilities__first-input .text-field__label__email {
+        font-size: 13px;
+        width: 80px;
+        top: -55px;
+    }
+
+    .about-text-wrapper-abilities__first-textarea .text-field__label {
+        font-size: 10px;
+        width: 80px;
+        top: -110%;
+    }
+
+    .error-label {
+        font-size: 9px;
+    }
+
+    .ways-contacts-text {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .about-img {
+        transform: scale(0.9);
+    }
+
+    .first-row {
+        flex-direction: column;
+    }
+
+    .about-text-wrapper-abilities__ability-description {
+        width: 100%;
+    }
+
+    .about-text-wrapper-abilities__ability-description__text {
+        max-width: 100%;
+    }
+
+    .about-text-wrapper-abilities__ability {
+        max-width: 100%;
+    }
+
+    .about-text-wrapper-abilities__ability {
+        margin-top: 20px;
+    }
+
+    .about-text-wrapper-abilities {
+        padding: 10px;
+    }
+
+    .ways-contacts {
+        height: auto;
+        margin-top: 100%;
+    }
+}
+
+@media only screen and (max-width: 385px) {
+    .about-img {
+        transform: scale(0.8);
+    }
+
+    .ways-contacts {
+        height: auto;
+        margin-top: 110%;
+    }
+
+    .about-text-wrapper-abilities__first-input .text-field__label {
+        font-size: 12px;
+        width: 60px;
+        top: -50px;
+    }
+
+    .about-text-wrapper-abilities__first-input .text-field__label__email {
+        font-size: 12px;
+        width: 70px;
+        top: -50px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .about-img {
+        transform: scale(0.8);
+    }
+
+    .ways-contacts {
+        height: auto;
+        margin-top: 130%;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .about-img {
+        transform: scale(0.8);
+    }
+
+    .ways-contacts {
+        height: auto;
+        margin-top: 150%;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .ways-contacts {
+        height: auto;
+        margin-top: 170%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .about-img {
+        transform: scale(0.7);
+    }
+
+    .ways-contacts {
+        height: auto;
+        margin-top: 190%;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .ways-contacts {
+        height: auto;
+        margin-top: 220%;
+    }
+}
+
+@media only screen and (max-width: 297px) {
+    .ways-contacts {
+        height: auto;
+        margin-top: 250%;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .about-img {
+        transform: scale(0.6);
+    }
+
+    .ways-contacts {
+        height: auto;
+        margin-top: 290%;
+    }
+}

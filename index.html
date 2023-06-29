@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Сайт</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./adopt.css">
+</head>
+<body>
+<div class="scroll-locker"></div>
+<div class="header">
+    <div class="contacts">
+        <div class="networks">
+            <div class="networks__text">Социальные сети</div>
+            <div class="networks__stripe"></div>
+            <div class="networks__github">
+                <img src="./static/Github.png" alt="none">
+            </div>
+            <div class="networks__instagram">
+                <img src="./static/Instagram.png" alt="none">
+            </div>
+            <div class="networks__facebook">
+                <img src="./static/Facebook.png" alt="none">
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        <div class="info">
+            <div class="info__title">
+                <div class="info__title-circle"></div>
+                <span class="info__title-text">Меня зовут Александра Смит</span>
+            </div>
+            <div class="info__text">Я web-разработчик </br> из города Москва</div>
+            <div class="info__buttons">
+                <div class="info__buttons-light">Портфолио</div>
+                <div class="info__buttons-invisible">Про меня</div>
+            </div>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" onclick="check()"/>
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+            <ul class="menu__box">
+                <li class="menu__box-row">
+                    <div class="menu__box-row-group">
+                        <img class="ellipse" src="./static/Ellipse.png" alt=""><a class="menu__item"
+                                                                                  href="#">ПРО МЕНЯ</a>
+                    </div>
+                </li>
+                <li class="menu__box-row">
+                    <div class="menu__box-row-group">
+                        <img class="ellipse" src="./static/Ellipse.png" alt=""><a class="menu__item"
+                                                                                  href="#">МОЙ ОПЫТ</a>
+                    </div>
+                </li>
+                <li class="menu__box-row">
+                    <div class="menu__box-row-group">
+                        <img class="ellipse" src="./static/Ellipse.png" alt=""><a class="menu__item"
+                                                                                  href="#">МОИ НАВЫКИ</a>
+                    </div>
+                </li>
+                <li class="menu__box-row">
+                    <div class="menu__box-row-group">
+                        <img class="ellipse" src="./static/Ellipse.png" alt=""><a class="menu__item" href="#">МОИ РАБОТЫ</a>
+                    </div>
+                </li>
+                <li class="menu__box-row">
+                    <div class="menu__box-row-group">
+                        <img class="ellipse" src="./static/Ellipse.png" alt=""><a class="menu__item"
+                                                                                  href="#">ПРАЙС-ЛИСТ</a>
+                    </div>
+                </li>
+                <li class="menu__box-row">
+                    <div class="menu__box-row-group">
+                        <img class="ellipse" src="./static/Ellipse.png" alt=""><a class="menu__item"
+                                                                                  href="#">КОНТАКТЫ</a>
+                    </div>
+                </li>
+
+                <li class="menu__box-row">
+                    <div class="hamburger-menu-images">
+                        <img src="./static/Socials.png" alt="">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="body">
+    <div class="about">
+        <div class="about-block">
+            <div class="about-img">
+                <img src="./static/Photo.jpg" alt="">
+            </div>
+            <div class="about-text">
+                <div class="about-text-wrapper">
+                    <div class="about-text-wrapper-title">
+                        <div class="about-text-wrapper-title__circle"></div>
+                        <span class="about-text-wrapper-title__text">Про меня</span>
+                    </div>
+                    <div class="about-text-wrapper-description">
+                        Меня зовут Александра
+                    </div>
+                    <div class="about-text-wrapper-stripe">
+                    </div>
+                    <div class="about-text-wrapper-information">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    </div>
+                    <div class="about-text-wrapper-abilities">
+                        <div class="first-row">
+                            <div class="about-text-wrapper-abilities__ability">
+                                <div class="about-text-wrapper-abilities__ability-icon">
+                                    <div class="about-text-wrapper-abilities__ability-icon__circle"></div>
+                                    <img src="./static/web%20development.png" alt="">
+                                </div>
+                                <div class="about-text-wrapper-abilities__ability-description">
+                                    <div class="about-text-wrapper-abilities__ability-description__title">
+                                        Web-разработка
+                                    </div>
+                                    <div class="about-text-wrapper-abilities__ability-description__text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="about-text-wrapper-abilities__ability">
+                                <div class="about-text-wrapper-abilities__ability-icon">
+                                    <div class="about-text-wrapper-abilities__ability-icon__circle"></div>
+                                    <img src="./static/Mobile%20dev.png" alt="">
+                                </div>
+                                <div class="about-text-wrapper-abilities__ability-description">
+                                    <div class="about-text-wrapper-abilities__ability-description__title">
+                                        Разработка приложений
+                                    </div>
+                                    <div class="about-text-wrapper-abilities__ability-description__text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="second-row">
+                            <div class="about-text-wrapper-abilities__ability">
+                                <div class="about-text-wrapper-abilities__ability-icon">
+                                    <div class="about-text-wrapper-abilities__ability-icon__circle"></div>
+                                    <img src="./static/Design.png" alt="">
+                                </div>
+                                <div class="about-text-wrapper-abilities__ability-description">
+                                    <div class="about-text-wrapper-abilities__ability-description__title">
+                                        UI/UX Design
+                                    </div>
+                                    <div class="about-text-wrapper-abilities__ability-description__text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                        tempor
+                                        incididunt ut labore et dolore magna aliqua.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="experiance">
+            <div class="experiance-block">
+                <div class="experiance-title">
+                    <div class="experiance-title__circle"></div>
+                    <span class="experiance-title__text">Опыт</span>
+                </div>
+                <div class="experiance-text">
+                    Чем я буду полезна
+                </div>
+                <div class="experiance-stripe-block">
+                    <div class="experiance-stripe"></div>
+                </div>
+                <div class="experiance-trees">
+                    <div class="experiance-trees-block">
+                        <div class="experiance-trees__tree">
+                            <div class="experiance-trees__tree-block-title">
+                                <div class="experiance-trees__tree-circle"></div>
+                                <span class="experiance-trees__tree-text">Образование</span>
+                            </div>
+                            <ul class="experiance-trees__tree">
+                                <li>
+                                    <div class="experiance-trees__tree-block">
+                                        <div class="experiance-trees__tree-title">
+                                            <div class="experiance-trees__tree-title-logo">
+                                                <div class="experiance-trees__tree-title-logo-circle"></div>
+                                                <img src="./static/University.png" alt="">
+                                            </div>
+                                            <div class="experiance-trees__tree-title-text">
+                                                <div class="experiance-trees__tree-title-text-title">
+                                                    МГТУ им. Н. Э. Баумана
+                                                </div>
+                                                <div class="experiance-trees__tree-title-text-description">
+                                                    Диплом магистра | Москва (2014-2020)
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="experiance-trees__tree-description">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo.
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="experiance-trees__tree-block">
+                                        <div class="experiance-trees__tree-title">
+                                            <div class="experiance-trees__tree-title-logo">
+                                                <div class="experiance-trees__tree-title-logo-circle"></div>
+                                                <img src="./static/Courses.png" alt="">
+                                            </div>
+                                            <div class="experiance-trees__tree-title-text">
+                                                <div class="experiance-trees__tree-title-text-title">
+                                                    Udemy
+                                                </div>
+                                                <div class="experiance-trees__tree-title-text-description">
+                                                    Курсы по Web-разработке
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="experiance-trees__tree-description">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo.
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="experiance-trees__tree">
+                            <div class="experiance-trees__tree-block-title">
+                                <div class="experiance-trees__tree-circle"></div>
+                                <span class="experiance-trees__tree-text">Опыт работы</span>
+                            </div>
+                            <ul class="experiance-trees__tree">
+                                <li>
+                                    <div class="experiance-trees__tree-block">
+                                        <div class="experiance-trees__tree-title">
+                                            <div class="experiance-trees__tree-title-logo">
+                                                <div class="experiance-trees__tree-title-logo-circle"></div>
+                                                <img src="./static/seo.png" alt="">
+                                            </div>
+                                            <div class="experiance-trees__tree-title-text">
+                                                <div class="experiance-trees__tree-title-text-title">
+                                                    Front-End Developer
+                                                </div>
+                                                <div class="experiance-trees__tree-title-text-description">
+                                                    EPAM | Москва (2018-2019)
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="experiance-trees__tree-description">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo.
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="experiance-trees__tree-block">
+                                        <div class="experiance-trees__tree-title">
+                                            <div class="experiance-trees__tree-title-logo">
+                                                <div class="experiance-trees__tree-title-logo-circle"></div>
+                                                <img src="./static/designer.png" alt="">
+                                            </div>
+                                            <div class="experiance-trees__tree-title-text">
+                                                <div class="experiance-trees__tree-title-text-title">
+                                                    UI/UX Designer
+                                                </div>
+                                                <div class="experiance-trees__tree-title-text-description">
+                                                    Squad Team | Москва (2018)
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="experiance-trees__tree-description">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo.
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ways-contacts">
+            <div class="ways-contacts-block">
+                <div class="ways-contacts-img">
+                    <img src="./static/Photo.jpg" alt="">
+                </div>
+                <div class="ways-contacts-text">
+                    <div class="ways-contacts-text-wrapper">
+                        <div class="ways-contacts-text-wrapper-title">
+                            <div class="about-text-wrapper-title__circle"></div>
+                            <span class="about-text-wrapper-title__text">Контакты</span>
+                        </div>
+                        <div class="ways-contacts-text-wrapper-description">
+                            Свяжитесь со мной
+                        </div>
+                        <div class="about-text-wrapper-stripe">
+                        </div>
+                        <div class="ways-contacts-text-wrapper-information">
+                            Любым удобным для вас способом:
+                        </div>
+                        <div class="ways-contacts-text-wrapper-images">
+                            <a href="https://www.facebook.com/"><img src="./static/FacebookBig.png" alt=""></a>
+                            <a href="https://web.telegram.org/k/"><img src="./static/Telegram.png" alt=""></a>
+                            <a href="https://www.instagram.com/"><img src="./static/InstagramBig.png" alt=""></a>
+                        </div>
+                        <div class="ways-contacts-text-wrapper-information">
+                            Или оставьте ваши данные и я сама вам напишу:
+                        </div>
+                        <form action="" class="about-text-wrapper-abilities" id="add-form">
+                            <div class="first-row-inputs">
+                                <div class="about-text-wrapper-abilities__first-input">
+                                    <input class="about-text-wrapper-abilities__first-input__input" type="text" id="name" name="email">
+                                    <label class="text-field__label" for="name">Ваше имя</label>
+                                </div>
+                                <div class="about-text-wrapper-abilities__first-input">
+                                    <input class="about-text-wrapper-abilities__first-input__input" type="email" id="email" name="email">
+                                    <label class="text-field__label__email" for="email">Ваша почта</label>
+                                </div>
+                            </div>
+                            <div class="second-row-inputs">
+                                <div class="about-text-wrapper-abilities__first-textarea">
+                                    <textarea class="about-text-wrapper-abilities__first-textarea__textarea" type="text" id="text" name="email"></textarea>
+                                    <label class="text-field__label" for="text">Ваше сообщение</label>
+                                </div>
+                            </div>
+                            <button type="submit" class="info__buttons-light contacts-button">
+                                Отправить сообщение
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer"></div>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
